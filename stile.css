@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+
+nav {
+  width: 700px;
+  background-color: rgb(210, 216, 214);
+  display: flex;
+  margin: 40px auto;
+}
+.centralni {
+  padding: 50px;
+  margin: 50px;
+  background-color: blueviolet;
+}
+nav > div {
+  flex-grow: 1;
+  flex-basis: 0;
+  position: relative;
+}
+nav > div > a {
+  padding: 10px;
+  color: black;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav > div > a:hover {
+  background-color: red;
+  color: antiquewhite;
+}
+
+nav > div > div > a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+nav > div > div {
+  display: none;
+  width: 100%;
+}
+
+.manastir {
+  overflow: hidden;
+  width: 1100px;
+}
+.manastir1 {
+  float: left;
+  width: 770px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.manastir3 {
+  float: left;
+  width: 280px;
+  margin-left: 30px;
+  background-color: rgba(231, 14, 14, 0.7);
+  padding: 10px;
+  border-radius: 25px;
+}
+footer {
+  padding: 20px;
+  margin: 30px;
+  color: antiquewhite;
+  background-color: red;
+  font-size: 18px;
+  font-style: italic;
+}
